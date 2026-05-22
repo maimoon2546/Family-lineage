@@ -40,7 +40,7 @@ export default function AkamaePage() {
 
                     <h1 className="text-2xl font-bold leading-loose text-[#d4b07b]"
                         style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}>
-                        ครอบครัวสายปะอิเซีย ยานยา
+                        ครอบครัวสายปะอิเซีย อาแย
                     </h1>
 
                     <div className="flex items-center justify-center gap-3 mt-4">
