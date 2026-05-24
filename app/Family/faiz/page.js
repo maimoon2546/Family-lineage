@@ -40,7 +40,7 @@ export default function AkamaePage() {
 
                     <h1 className="text-2xl font-bold leading-loose text-[#d4b07b]"
                         style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}>
-                        ครอบครัวสายปะอิเซีย อาแย
+                        ครอบครัวสายฟาอิส ยานยา
                     </h1>
 
                     <div className="flex items-center justify-center gap-3 mt-4">
@@ -66,7 +66,7 @@ export default function AkamaePage() {
                     ))}
                     <Zoom>
                         <img
-                            src="/images/3.png"
+                            src="/images/2.png"
                             alt="Faizah Family"
                             className="relative rounded-2xl w-full cursor-zoom-in"
                         />

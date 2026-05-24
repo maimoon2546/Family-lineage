@@ -66,7 +66,7 @@ export default function AkamaePage() {
                     ))}
                     <Zoom>
                         <img
-                            src="/images/2.png"
+                            src="/images/4.png"
                             alt="Faizah Family"
                             className="relative rounded-2xl w-full cursor-zoom-in"
                         />

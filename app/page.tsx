@@ -44,8 +44,8 @@ export default function HomePage() {
           <h1 className="text-2xl font-bold leading-loose text-[#f5e6c8]"
             style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}>
             แผนผังเครือญาติสายตระกูล<br />
-            ซีดีฮัจญีวันฮูเซน เบนฮาซัน<br />
-            <span className="text-[#d4b07b]">และฮัจญะนิไซหนับ เบนตีอะหมัด</span>
+            ฮัจญีวันฮูเซน บิน ฮัจญีวันฮาซัน <br />
+            <span className="text-[#d4b07b]">และฮัจญะฮ์วันไซนับ บินตี ฮัจญีวันอิสมาอีล ยานยา</span>
           </h1>
 
           <div className="flex items-center justify-center gap-3 mt-4">
@@ -86,22 +86,36 @@ export default function HomePage() {
         {/* Navigation grid */}
         <div className="grid grid-cols-2 gap-4">
           {[
-            { href: "/Family/ahamah", label: "ครอบครัวสายอาหะมะ ยานยา", sub: "Ahamah Yanya" },
+            { href: "/Family/faiz", label: "ครอบครัวสายฟาอิส ยานยา", sub: "Faiz Yanya" },
             { href: "/Family/faizah", label: "ครอบครัวสายปะอิเซีย อาแย", sub: "Faizah Ayae" },
+            { href: "/Family/ahamah", label: "ครอบครัวสายอาหะมะ ยานยา", sub: "Ahamah Yanya" },
             { href: "/Family/basiroh", label: "ครอบครัวสายบาซีเร๊าะ ยานยา", sub: "Basiroh Yanya" },
-            { href: "/Family/basir", label: "ครอบครัวสายอับดุลบาสิท ยานยา", sub: "Abdulbasit Yanya" },
           ].map(({ href, label, sub }) => (
             <Link key={href} href={href}
               className="group relative overflow-hidden rounded-xl border border-[rgba(212,176,123,0.35)]
-                         p-6 text-center transition-all duration-200
-                         hover:-translate-y-1 hover:border-[rgba(212,176,123,0.75)]
-                         active:scale-[0.97]">
+                 p-6 text-center transition-all duration-200
+                 hover:-translate-y-1 hover:border-[rgba(212,176,123,0.75)]
+                 active:scale-[0.97]">
               <div className="absolute inset-0 bg-gradient-to-br from-[rgba(212,176,123,0.12)] to-transparent
-                              opacity-0 transition-opacity duration-200 group-hover:opacity-100" />
+                      opacity-0 transition-opacity duration-200 group-hover:opacity-100" />
               <span className="relative block text-lg font-semibold text-[#f5e6c8]">{label}</span>
               <span className="relative mt-1 block text-sm tracking-wide text-[#d4b07b] opacity-60">{sub}</span>
             </Link>
           ))}
+        </div>
+
+        {/* ปุ่มสุดท้ายอยู่กึ่งกลาง */}
+        <div className="flex justify-center mt-4">
+          <Link href="/Family/basir"
+            className="group relative overflow-hidden rounded-xl border border-[rgba(212,176,123,0.35)]
+               p-6 text-center transition-all duration-200 w-[calc(50%-8px)]
+               hover:-translate-y-1 hover:border-[rgba(212,176,123,0.75)]
+               active:scale-[0.97]">
+            <div className="absolute inset-0 bg-gradient-to-br from-[rgba(212,176,123,0.12)] to-transparent
+                    opacity-0 transition-opacity duration-200 group-hover:opacity-100" />
+            <span className="relative block text-lg font-semibold text-[#f5e6c8]">ครอบครัวสายอับดุลบาสิท ยานยา</span>
+            <span className="relative mt-1 block text-sm tracking-wide text-[#d4b07b] opacity-60">Abdulbasit Yanya</span>
+          </Link>
         </div>
 
         {/* Footer ornament */}
