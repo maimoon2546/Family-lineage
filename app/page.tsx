@@ -7,7 +7,7 @@ import "react-medium-image-zoom/dist/styles.css";
 export default function HomePage() {
   return (
     <main className="relative min-h-screen overflow-hidden text-[#f5e6c8]"
-      style={{ background: "#3a0a02", fontFamily: "'Noto Serif Thai', serif" }}>
+      style={{ background: "#52241cff", fontFamily: "'Noto Serif Thai', serif" }}>
 
       {/* geometric pattern overlay */}
       <div className="pointer-events-none absolute inset-0 opacity-[0.07]"
