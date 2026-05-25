@@ -45,7 +45,7 @@ export default function HomePage() {
             style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}>
             แผนผังเครือญาติสายตระกูล<br />
             ฮัจญีวันฮูเซน บิน ฮัจญีวันฮาซัน <br />
-            <span className="text-[#d4b07b]">และฮัจญะฮ์วันไซนับ บินตี ฮัจญีวันอิสมาอีล ยานยา</span>
+            <span className="text-[#d4b07b]">และฮัจญะฮ์วันไซนับ บินตี วันอิสมาอีล ยานยา</span>
           </h1>
 
           <div className="flex items-center justify-center gap-3 mt-4">
