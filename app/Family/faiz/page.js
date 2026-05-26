@@ -4,7 +4,7 @@ import Link from "next/link";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
-export default function AkamaePage() {
+export default function FaizPage() {
     return (
         <main className="relative min-h-screen overflow-hidden text-[#f5e6c8]"
             style={{ background: "#52241cff", fontFamily: "'Noto Serif Thai', serif" }}>
